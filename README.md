@@ -3,7 +3,7 @@
 [contributing]: CONTRIBUTING.md
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
+[![Preview](https://badgen.net/badge/preview/main/purple?icon=bitcoin-lightning)](https://gepton.gatsbyjs.io)
 ![GEPTON](https://user-images.githubusercontent.com/39991296/122655705-18f33100-d172-11eb-8c5d-83378ea38e70.png)
 #
 [GEPTON](https://gepton.com) is a tech based startup working on empowering businesses with latest technologies. This repo is for the landing page of gepton.
