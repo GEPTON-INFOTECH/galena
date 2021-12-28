@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import Header from '../components/molecules/Header'
+import Layout from '../layouts/main'
 
 const Main = styled.main`
   margin-left: 10%;
@@ -12,7 +12,9 @@ const IndexPage = () => {
   return (
     <Main>
       <title>GEPTON | One stop to all your digital needs.</title>
-      <Header />
+      <Layout>
+        {/* content */}
+      </Layout>
     </Main>
   )
 }
