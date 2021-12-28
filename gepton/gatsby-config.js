@@ -1,34 +1,34 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://gepton.com",
-    title: "gepton",
+    siteUrl: 'https://gepton.com',
+    title: 'gepton'
   },
   plugins: [
-    "gatsby-plugin-styled-components",
-    "gatsby-plugin-image",
+    'gatsby-plugin-styled-components',
+    'gatsby-plugin-image',
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "G-12WQFKCPMV",
-      },
+        trackingId: 'G-12WQFKCPMV'
+      }
     },
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: "src/images/favicon-32x32.png",
-      },
+        icon: 'src/images/favicon-32x32.png'
+      }
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: 'images',
+        path: './src/images/'
       },
-      __key: "images",
-    },
-  ],
-};
+      __key: 'images'
+    }
+  ]
+}
