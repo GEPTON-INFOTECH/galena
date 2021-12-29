@@ -4,6 +4,7 @@ module.exports = {
     title: "gepton",
   },
   plugins: [
+    "gatsby-plugin-postcss",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     {
