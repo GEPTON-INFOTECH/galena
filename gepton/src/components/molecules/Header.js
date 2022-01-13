@@ -17,7 +17,7 @@ const StyledHeader = styled.div`
     font-family: Montserrat;
   }
 `
-export default function Header() {
+export default function Header () {
   return (
     <StyledHeader>
       <StaticImage src='../../images/gepton.png' height={60} />

@@ -41,17 +41,17 @@ font-family: Montserrat Alternates;
 }
 
 `
-export default function Landing() {
-    return (
-        <StyledLanding>
-            <div id='home'>
-                <p className='title'>We help you <span style={{ color: '#E72128' }}>Build</span><br /> your digital presence.</p>
-                <p className='text'>Placeholder text goes here, something <br />catchy which supports the above heading <br /> and encourage to click below button.</p>
-                <button className='button'>Let's Discuss</button>
-            </div>
-            <div>
-                <StaticImage src='../../images/Saly-13.png' height={600} />
-            </div>
-        </StyledLanding>
-    )
+export default function Landing () {
+  return (
+    <StyledLanding>
+      <div id='home'>
+        <p className='title'>We help you <span style={{ color: '#E72128' }}>Build</span><br /> your digital presence.</p>
+        <p className='text'>Placeholder text goes here, something <br />catchy which supports the above heading <br /> and encourage to click below button.</p>
+        <button className='button'>Let's Discuss</button>
+      </div>
+      <div>
+        <StaticImage src='../../images/Saly-13.png' height={600} />
+      </div>
+    </StyledLanding>
+  )
 }
