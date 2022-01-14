@@ -49,8 +49,8 @@ font-family: Montserrat Alternates;
 `
 export default function Landing () {
   return (
-    <StyledLanding>
-      <div id='home'>
+    <StyledLanding id='home'>
+      <div>
         <p className='title'>We help you <span style={{ color: COLORS.secondary }}>Build</span><br /> your digital presence.</p>
         <p className='text'>Placeholder text goes here, something <br />catchy which supports the above heading <br /> and encourage to click below button.</p>
         <button className='button'>Let's Discuss</button>

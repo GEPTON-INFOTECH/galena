@@ -2,6 +2,7 @@ import * as React from 'react'
 import styled from 'styled-components'
 import Layout from '../layouts/main'
 import Landing from '../components/molecules/Landing'
+import Project from '../components/molecules/Project'
 
 const Main = styled.main`
   margin-left: 10%;
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <title>GEPTON | One stop to all your digital needs.</title>
       <Layout>
         <Landing />
+        <Project />
         {/* content */}
       </Layout>
     </Main>

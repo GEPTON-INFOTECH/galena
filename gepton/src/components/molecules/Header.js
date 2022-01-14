@@ -28,7 +28,7 @@ export default function Header () {
         <Link className='navlinks' to='' spy smooth offset={50} duration={500} style={{ cursor: 'pointer' }}>
           About
         </Link>
-        <Link className='navlinks' to='' spy smooth offset={50} duration={500} style={{ cursor: 'pointer' }}>
+        <Link className='navlinks' to='product' spy smooth offset={50} duration={500} style={{ cursor: 'pointer' }}>
           Product
         </Link>
         <Link className='navlinks' to='' spy smooth offset={50} duration={500} style={{ cursor: 'pointer' }}>
