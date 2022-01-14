@@ -2,7 +2,13 @@ import * as React from 'react'
 import styled from 'styled-components'
 import { StaticImage } from 'gatsby-plugin-image'
 
+const COLORS = {
+  secondary: '#E72128',
+  primary: '#002537'
+}
+
 const StyledLanding = styled.div`
+
 font-family: Montserrat Alternates;
   display: flex;
   align-items: center;
@@ -18,7 +24,7 @@ font-family: Montserrat Alternates;
     font-weight: 900;
     font-size: 40px;
     line-height: 130%;
-    color: #002537;
+    color:${COLORS.primary} ;
 }
 .text{
     font-size: 20px;
@@ -34,7 +40,7 @@ font-family: Montserrat Alternates;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    background: #E72128;
+    background: ${COLORS.secondary};
     box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.3);
     border-radius: 35px;
     margin-top: 2rem;
@@ -45,7 +51,7 @@ export default function Landing () {
   return (
     <StyledLanding>
       <div id='home'>
-        <p className='title'>We help you <span style={{ color: '#E72128' }}>Build</span><br /> your digital presence.</p>
+        <p className='title'>We help you <span style={{ color: COLORS.secondary }}>Build</span><br /> your digital presence.</p>
         <p className='text'>Placeholder text goes here, something <br />catchy which supports the above heading <br /> and encourage to click below button.</p>
         <button className='button'>Let's Discuss</button>
       </div>
