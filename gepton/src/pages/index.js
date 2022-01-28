@@ -1,19 +1,15 @@
 import * as React from "react";
-import styled from "styled-components";
-import Header from "../components/molecules/Header";
-
-const Main = styled.main`
-  margin-left: 10%;
-  margin-right: 10%;
-`;
+// import Header from "../components/molecules/Header";
 
 // markup
 const IndexPage = () => {
   return (
-    <Main>
+    <div>
       <title>GEPTON | One stop to all your digital needs.</title>
-      <Header />
-    </Main>
+      {/* <Header /> */}
+      <h1>Hello World!</h1>
+      <h1 className="text-3xl font-bold underline">Hello World!</h1>
+    </div>
   );
 };
 
