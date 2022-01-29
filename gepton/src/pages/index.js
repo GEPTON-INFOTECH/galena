@@ -4,7 +4,7 @@ import NavBar from "../components/molecules/NavBar";
 
 const IndexPage = () => {
   return (
-    <div className="py-4 px-8 sm:px-12">
+    <div className="py-4 px-8 sm:mx-auto max-w-screen-xl">
       <title>GEPTON | One stop to all your digital needs.</title>
       <NavBar />
       <Header />
