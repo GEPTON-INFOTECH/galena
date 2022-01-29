@@ -1,22 +1,16 @@
-import * as React from 'react'
-import styled from 'styled-components'
-import Layout from '../layouts/main'
-
-const Main = styled.main`
-  margin-left: 10%;
-  margin-right: 10%;
-`
+import * as React from "react";
+// import Header from "../components/molecules/Header";
 
 // markup
 const IndexPage = () => {
   return (
-    <Main>
+    <div>
       <title>GEPTON | One stop to all your digital needs.</title>
-      <Layout>
-        {/* content */}
-      </Layout>
-    </Main>
-  )
-}
+      {/* <Header /> */}
+      <h1>Hello World!</h1>
+      <h1 className="text-3xl font-bold underline">Hello World!</h1>
+    </div>
+  );
+};
 
 export default IndexPage

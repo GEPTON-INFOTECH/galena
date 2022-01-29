@@ -4,8 +4,8 @@ module.exports = {
     title: 'gepton'
   },
   plugins: [
-    'gatsby-plugin-styled-components',
-    'gatsby-plugin-image',
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-image",
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
