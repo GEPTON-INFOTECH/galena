@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div>
       <StaticImage src="../../images/gepton.png" height={60} />
-      <nav>
+      <div>
         <Link className="navlinks" to="/">
           Home
         </Link>
@@ -21,7 +21,7 @@ export default function Header() {
         <Link className="navlinks" to="/">
           CTA
         </Link>
-      </nav>
+      </div>
     </div>
   );
 }
