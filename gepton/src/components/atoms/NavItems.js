@@ -1,13 +1,14 @@
 import * as React from "react";
+import { Link } from "gatsby";
 
 const NavItems = ({ title, src }) => {
   return (
-    <a
+    <Link
       className="sm:ml-4 block text-center font-semibold sm:inline-block"
-      href={src}
+      to={src}
     >
       {title}
-    </a>
+    </Link>
   );
 };
 
