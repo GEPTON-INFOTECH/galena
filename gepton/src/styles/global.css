@@ -9,4 +9,33 @@
   }
 }
 
+.btn {
+  @apply font-bold text-lg md:text-xl px-6 py-2 rounded-full;
+}
+
 @tailwind utilities;
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fefefe;
+  height: 100px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5f676e;
+  border-radius: 5px;
+}
