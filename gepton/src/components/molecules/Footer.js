@@ -3,7 +3,7 @@ import { contacts, socials, references, infos } from "../../../configs/footer";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 text-gray-700 py-12">
+    <footer className="text-gray-700 py-12" id="contact">
       {/* <div className="max-w-screen-xl mx-auto mb-12 lg:mb-16  ">
         <img className="h-8" src={logoUrl} alt="Gepton logo" />
       </div> */}

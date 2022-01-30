@@ -80,7 +80,7 @@ export const infos = [
   },
   {
     text: "Career",
-    link: "#",
+    link: "/career",
   },
   {
     text: "Get Quote",

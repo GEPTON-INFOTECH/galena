@@ -2,7 +2,7 @@ import React from "react";
 import { TrendingUp, CloudLightning, DollarSign } from "react-feather";
 export default function Info() {
   return (
-    <div className="md:flex py-12 bg-gray-50">
+    <div className="md:flex py-12" id="about">
       <div className="md:w-1/3 mr-12">
         <TrendingUp />
         <h3 className="text-xl font-bold mt-4 mb-2">Highly scalable</h3>

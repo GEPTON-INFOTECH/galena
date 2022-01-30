@@ -9,16 +9,20 @@ import Footer from "../components/molecules/Footer";
 
 const IndexPage = () => {
   return (
-    <div className="pt-4 px-8 sm:mx-auto max-w-screen-xl">
+    <div>
       <title>GEPTON | One stop to all your digital needs.</title>
-      <NavBar />
-      <Header />
-      <Info />
-      <Featured f={f1} />
-      <Featured f={f2} reverse={true} />
-      <Featured f={f3} />
+      <div className="pt-4 px-8 sm:mx-auto max-w-screen-xl">
+        <NavBar />
+        <Header />
+        <Info />
+        <Featured f={f1} />
+        <Featured f={f2} reverse={true} />
+        <Featured f={f3} />
+      </div>
       <Cta />
-      <Footer />
+      <div className="pt-4 px-8 sm:mx-auto max-w-screen-xl">
+        <Footer />
+      </div>
     </div>
   );
 };

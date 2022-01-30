@@ -4,7 +4,7 @@ import PrimaryButton from "../atoms/buttons/PrimaryButton";
 export default function Featured({ f, reverse }) {
   let extra = "";
   if (reverse) {
-    extra = "md:flex-row-reverse bg-gray-50";
+    extra = "md:flex-row-reverse";
   }
   return (
     <div className={`md:flex items-center mt-12 ${extra}`}>
