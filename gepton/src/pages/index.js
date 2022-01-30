@@ -5,6 +5,7 @@ import NavBar from "../components/molecules/NavBar";
 import Info from "../components/molecules/Info";
 import Cta from "../components/molecules/Cta";
 import { f1, f2, f3 } from "../../configs/featured";
+import Footer from "../components/molecules/Footer";
 
 const IndexPage = () => {
   return (
@@ -17,6 +18,7 @@ const IndexPage = () => {
       <Featured f={f2} reverse={true} />
       <Featured f={f3} />
       <Cta />
+      <Footer />
     </div>
   );
 };

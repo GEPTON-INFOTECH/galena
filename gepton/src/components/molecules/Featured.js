@@ -4,7 +4,7 @@ import PrimaryButton from "../atoms/buttons/PrimaryButton";
 export default function Featured({ f, reverse }) {
   let extra = "";
   if (reverse) {
-    extra = "md:flex-row-reverse";
+    extra = "md:flex-row-reverse bg-gray-50";
   }
   return (
     <div className={`md:flex items-center mt-12 ${extra}`}>
@@ -17,8 +17,10 @@ export default function Featured({ f, reverse }) {
           <span className="text-red-600">{f.t}</span>
           {f.t2}
         </h1>
-        {f.points.map((point) => (
-          <p className="my-4 md:my-6">{point}</p>
+        {f.points.map((point, index) => (
+          <p className="my-4 md:my-6" key={index}>
+            {point}
+          </p>
         ))}
 
         <div className="my-6 md:my-6">

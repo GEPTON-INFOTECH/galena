@@ -21,8 +21,8 @@ const NavBar = () => {
         </div>
       </div>
       <div className="hidden sm:block">
-        {navLinks.map((navLink) => (
-          <NavItems title={navLink.title} src={navLink.link} />
+        {navLinks.map((navLink, index) => (
+          <NavItems key={index} title={navLink.title} src={navLink.link} />
         ))}
       </div>
       <div
@@ -33,8 +33,8 @@ const NavBar = () => {
         <button className="my-36" onClick={handleClick}>
           <X className="hover:text-red-600" />
         </button>
-        {navLinks.map((navLink) => (
-          <NavItems title={navLink.title} src={navLink.link} />
+        {navLinks.map((navLink, index) => (
+          <NavItems key={index} title={navLink.title} src={navLink.link} />
         ))}
       </div>
     </div>
