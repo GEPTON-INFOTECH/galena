@@ -3,6 +3,7 @@ import Featured from "../components/molecules/Featured";
 import Header from "../components/molecules/Header";
 import NavBar from "../components/molecules/NavBar";
 import Info from "../components/molecules/Info";
+import { f1, f2, f3 } from "../../configs/featured";
 
 const IndexPage = () => {
   return (
@@ -11,7 +12,9 @@ const IndexPage = () => {
       <NavBar />
       <Header />
       <Info />
-      <Featured />
+      <Featured f={f1} />
+      <Featured f={f2} reverse={true} />
+      <Featured f={f3} />
     </div>
   );
 };
