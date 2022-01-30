@@ -18,7 +18,7 @@ const Header = () => {
           your digital presence.
         </h1>
         <p className="text-gray-600 mt-2 mb-6">{tagDesc}</p>
-        <PrimaryButton color="red" title="Let's Discuss" link="#" />
+        <PrimaryButton title="Let's Discuss" link="#" />
       </div>
     </div>
   );

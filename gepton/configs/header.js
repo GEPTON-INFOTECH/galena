@@ -18,4 +18,4 @@ export const navLinks = [
 ];
 
 export const tagDesc =
-  "We work alongside your team and brand to build your digital identity. Empowering businesses with scalable innovation. You imagine, we create.";
+  "We work alongside your team and brand to build your digital identity. Empowering businesses with scalable innovation. A mission to increase GDP over internet.";
