@@ -75,11 +75,10 @@ const Footer = () => {
       </div>
       <div className="text-center space-y-4 mt-8 lg:mt-12 border-t-2 border-gray-200 pt-8">
         <p className="text-sm">
-          &copy;2020-2022{" "}
+          &copy;2020-2022 | Designed ❤️ with by{" "}
           <a href="#" className="text-red-600 font-bold hover:text-black">
             GEPTON{" "}
           </a>
-          | All rights reserved.
         </p>
       </div>
     </footer>
