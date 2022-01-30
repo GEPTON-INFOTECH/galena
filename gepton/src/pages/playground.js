@@ -7,8 +7,8 @@ const Playground = () => {
   return (
     <div className="py-4 px-8 sm:mx-auto max-w-screen-xl">
       {/* <Footer /> */}
-      {/* <Info /> */}
-      <Featured />
+      <Info />
+      {/* <Featured /> */}
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Header = () => {
           className="w-10/12 mx-auto md:mr-0"
         />
       </div>
-      <div className="text-center md:text-left md:max-w-md">
+      <div className="text-center md:text-left md:max-w-md mb-12">
         <h1 className="text-4xl lg:text-5xl font-extrabold mb-2 text-gray-900 ">
           We help you <span className="text-red-600">Build </span>
           your digital presence.

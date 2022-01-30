@@ -4,7 +4,7 @@ import PrimaryButton from "../atoms/buttons/PrimaryButton";
 
 export default function Featured() {
   return (
-    <div className="md:flex items-center bg-gray-100">
+    <div className="md:flex items-center mt-12">
       <div className="md:w-1/2 my-6 ">
         <img src={f1Img} alt="featured app" className="h-auto w-10/12" />
       </div>
