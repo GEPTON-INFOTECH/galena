@@ -1,5 +1,6 @@
 import * as React from "react";
-import { tagDesc } from "../../../configs/header";
+import Popup from "react-typeform-embed/lib/Popup/Popup";
+import { tagDesc, typeFormId } from "../../../configs/header";
 import PrimaryButton from "../atoms/buttons/PrimaryButton";
 
 const Header = () => {
@@ -15,10 +16,12 @@ const Header = () => {
       <div className="text-center md:text-left md:max-w-md mb-12">
         <h1 className="text-4xl lg:text-5xl font-extrabold mb-2 text-gray-900 ">
           We help you <span className="text-red-600">Build </span>
-          your digital presence.
+          your digital identity.
         </h1>
         <p className="text-gray-600 mt-2 mb-6">{tagDesc}</p>
-        <PrimaryButton title="Let's Discuss" link="#" color="red" />
+        <Popup id={typeFormId}>
+          <PrimaryButton title="Let's Discuss" link="#" color="red" />
+        </Popup>
       </div>
     </div>
   );

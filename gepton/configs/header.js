@@ -18,4 +18,5 @@ export const navLinks = [
 ];
 
 export const tagDesc =
-  "We work alongside your team and brand to build your digital identity. Empowering businesses with scalable innovation. A mission to increase GDP over internet.";
+  "We help you address evolving business needs and add value to your organisation and customers by establishing your digital identity alongside your team.";
+export const typeFormId = "GcVsf2XS";

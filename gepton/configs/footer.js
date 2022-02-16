@@ -3,9 +3,8 @@ import * as React from "react";
 import {
   Instagram,
   Twitter,
-  GitHub,
   Mail,
-  Phone,
+  PhoneCall,
   Linkedin,
   Facebook,
 } from "react-feather";
@@ -13,36 +12,36 @@ import {
 export const socials = [
   {
     icon: <Instagram />,
-    link: "#",
+    link: "https://instagram.com/geptonofficial",
   },
   {
     icon: <Facebook />,
-    link: "#",
+    link: "https://fb.me/geptonofficial",
   },
   {
     icon: <Linkedin />,
-    link: "#",
+    link: "https://linkedin.com/company/gepton",
   },
   {
     icon: <Twitter />,
-    link: "#",
+    link: "https://twitter.com/geptonofficial",
   },
   {
-    icon: <GitHub />,
-    link: "#",
+    icon: <Mail />,
+    link: "mailto:notify@gepton.com",
   },
 ];
 
 export const contacts = [
   {
-    icon: <Mail />,
-    link: "#",
-    text: "notify@gepton.com",
+    icon: <PhoneCall />,
+    link: "tel:919099199105",
+    text: "+91 90 991 991 05",
   },
   {
-    icon: <Phone />,
-    link: "#",
-    text: "+91 8562 943580",
+    icon: <PhoneCall />,
+    link: "tel:919099199106",
+    text: "+91 90 991 991 06",
   },
 ];
 
@@ -59,6 +58,7 @@ export const references = [
     link: "#",
     text: "Gepton Ed-Tech",
   },
+
   {
     link: "#",
     text: "Office",
@@ -84,6 +84,6 @@ export const infos = [
   },
   {
     text: "Get Quote",
-    link: "#",
+    link: "https://gepton.typeform.com/to/GcVsf2XS",
   },
 ];

@@ -1,4 +1,6 @@
 import React from "react";
+import Popup from "react-typeform-embed/lib/Popup/Popup";
+import { typeFormId } from "../../../configs/header";
 import PrimaryButton from "../atoms/buttons/PrimaryButton";
 
 export default function Featured({ f, reverse }) {
@@ -24,12 +26,14 @@ export default function Featured({ f, reverse }) {
         ))}
 
         <div className="my-6 md:my-6">
-          <PrimaryButton
-            title={f.button.title}
-            link={f.button.link}
-            reverse={reverse}
-            color="red"
-          />
+          <Popup id={typeFormId}>
+            <PrimaryButton
+              title={f.button.title}
+              link={f.button.link}
+              reverse={reverse}
+              color="red"
+            />
+          </Popup>
         </div>
       </div>
     </div>

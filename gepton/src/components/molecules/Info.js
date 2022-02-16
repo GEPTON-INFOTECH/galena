@@ -1,27 +1,30 @@
 import React from "react";
-import { TrendingUp, CloudLightning, DollarSign } from "react-feather";
+import { TrendingUp, CloudLightning, BarChart } from "react-feather";
 export default function Info() {
   return (
     <div className="md:flex py-12" id="about">
       <div className="md:w-1/3 mr-12">
-        <TrendingUp />
-        <h3 className="text-xl font-bold mt-4 mb-2">Highly scalable</h3>
+        <BarChart />
+        <h3 className="text-xl font-bold mt-4 mb-2">Thrive</h3>
         <p className="text-gray-500 mb-4">
-          Scalable Business Scalable Business Scalable Business
+          Thrive in a competitive environment by reimagining your firm through
+          digital transformation.
         </p>
       </div>
       <div className="md:w-1/3 mr-12">
         <CloudLightning />
-        <h3 className="text-xl font-bold mt-4 mb-2">Lightning fast</h3>
+        <h3 className="text-xl font-bold mt-4 mb-2">Innovate</h3>
         <p className="text-gray-500 mb-4">
-          Scalable Business Scalable Business Scalable Business
+          We bring value-adding innovation to your firm and team that makes a
+          positive difference.
         </p>
       </div>
       <div className="md:w-1/3 mr-12">
-        <DollarSign />
-        <h3 className="text-xl font-bold mt-4 mb-4">Revenue oriented</h3>
+        <TrendingUp />
+        <h3 className="text-xl font-bold mt-4 mb-4">Accelerate</h3>
         <p className="text-gray-500 mb-4">
-          Scalable Business Scalable Business Scalable Business
+          We utilize the power of data and develop technology to accomplish your
+          rapid growth.
         </p>
       </div>
     </div>
