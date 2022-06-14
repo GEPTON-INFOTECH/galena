@@ -84,6 +84,6 @@ export const infos = [
   },
   {
     text: "Get Quote",
-    link: "https://gepton.typeform.com/to/GcVsf2XS",
+    link: "https://form.typeform.com/to/GcVsf2XS",
   },
 ];

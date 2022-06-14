@@ -18,5 +18,5 @@ export const navLinks = [
 ];
 
 export const tagDesc =
-  "We help you address evolving business needs and add value to your organisation and customers by establishing your digital identity alongside your team.";
+  "We offer scalable IT solutions to meet your digital needs, allowing you and your team to manage & transform your business at light speed.";
 export const typeFormId = "GcVsf2XS";
