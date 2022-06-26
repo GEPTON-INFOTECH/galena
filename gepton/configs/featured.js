@@ -1,7 +1,7 @@
 export const f1 = {
   t1: "Why choose ",
   t: "Gepton ",
-  t2: "for you next project?",
+  t2: "for your next project?",
   points: [
     "Gepton provides industry standard IT solutions which makes you stand out and move fast. So that you can just focus on sky rocketting business to  the moon.",
     "We're not just another software company, we're your IT partner, and we'll be there for you every step of the way.",
