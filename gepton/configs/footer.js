@@ -68,8 +68,8 @@ export const references = [
     text: "Gepton Lifestyle",
   },
   {
-    link: "#",
-    text: "Navigate",
+    link: "/privacy",
+    text: "Privacy Policy",
   },
 ];
 
