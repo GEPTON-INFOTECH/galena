@@ -1,13 +1,13 @@
-import * as React from "react";
+import * as React from 'react';
 
 import {
+  Facebook,
   Instagram,
-  Twitter,
+  Linkedin,
   Mail,
   PhoneCall,
-  Linkedin,
-  Facebook,
-} from "react-feather";
+  Twitter,
+} from 'react-feather';
 
 export const socials = [
   {
@@ -47,25 +47,24 @@ export const contacts = [
 
 export const references = [
   {
+    text: "Home",
+    link: "#",
+  },
+  {
     link: "#",
     text: "Gepton Milkton",
   },
   {
-    link: "#",
-    text: "Awards",
+    text: "Career",
+    link: "/career",
   },
   {
     link: "#",
     text: "Gepton Ed-Tech",
   },
-
   {
-    link: "#",
-    text: "Office",
-  },
-  {
-    link: "#",
-    text: "Gepton Lifestyle",
+    text: "Get Quote",
+    link: "https://form.typeform.com/to/GcVsf2XS",
   },
   {
     link: "/privacy",

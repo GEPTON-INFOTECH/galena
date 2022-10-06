@@ -1,5 +1,11 @@
-import * as React from "react";
-import { contacts, socials, references, infos } from "../../../configs/footer";
+import * as React from 'react';
+
+// import { logoUrl } from '../../../configs/branding';
+import {
+  contacts,
+  references,
+  socials,
+} from '../../../configs/footer';
 
 const Footer = () => {
   return (
@@ -10,21 +16,11 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto ">
         <div className="grid grid-cols-8 md:grid-cols-9  lg:grid-cols-8  divide-gray-200 divide-y-2 md:divide-x-2 md:divide-y-0 md:-mx-8">
           <div className="col-span-8 md:col-span-3 lg:col-span-2 md:px-8 py-4 md:py-0">
-            <h5 className="text-xl font-semibold text-gray-700">Info</h5>
-            <nav className="mt-4">
-              <ul className="space-y-2">
-                {infos.map((info, index) => (
-                  <li key={index}>
-                    <a
-                      href={info.link}
-                      className="font-normal text-base hover:text-red-600"
-                    >
-                      {info.text}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </nav>
+            <h5 className="text-xl font-semibold text-gray-700">Address</h5>
+            <p className="mt-4">
+              📍 Rajendra Nagar E Rd, Dayanand Nagar, Gorakhpur, Uttar Pradesh -
+              273015
+            </p>
           </div>
           <div className="col-span-8 md:col-span-3 lg:col-span-3 md:px-8 py-4 md:py-0">
             <h5 className="text-xl font-semibold text-gray-700">Reference</h5>
